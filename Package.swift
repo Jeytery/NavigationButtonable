@@ -7,7 +7,7 @@ let package = Package(
     name: "NavigationButtonable",
     platforms: [
         .iOS(.v13)
-    ]
+    ],
     products: [
         .library(
             name: "NavigationButtonable",
