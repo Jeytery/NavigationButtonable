@@ -48,7 +48,7 @@ public protocol RightNavigationButtonable {
     func rightNavigationButtonTintColor() -> UIColor
 }
 
-extension LeftNavigationButtonable where Self: UIViewController {
+public extension LeftNavigationButtonable where Self: UIViewController {
     func configureLeftNavigationButton() {
         var tabButton: UIBarButtonItem!
         
@@ -102,7 +102,7 @@ extension LeftNavigationButtonable where Self: UIViewController {
     }
 }
 
-extension RightNavigationButtonable where Self: UIViewController {
+public extension RightNavigationButtonable where Self: UIViewController {
     func configureRightNavigationButton() {
         var tabButton: UIBarButtonItem!
         
